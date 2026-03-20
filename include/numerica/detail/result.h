@@ -32,9 +32,7 @@ constexpr const char *to_string(status s) noexcept {
 
 struct result_meta {
   status code = status::ok;
-  int iters = 0;
-  int evals = 0;
-}
+};
 // TODO: update descriptions + write tests
 
 } // namespace numerica::detail
